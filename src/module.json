@@ -4,8 +4,11 @@
   "description": "<p>A collection of macros and automation API for the SWADE system. If you find this module useful, please consider contributing to the maintenance fund at <a href='ko-fi.com/spacemandev'>ko-fi.com/spacemandev</a> </p>",
   "author": "spacemandev (spacemandev#6256)",
   "version": "1.1.2",
-  "minimumCoreVersion": "0.6.0",
-  "compatibleCoreVersion": "0.7.9",
+  "compatibility": {
+    "minimum": "0.6.0",
+    "verified": "0.7.9",
+    "maximum": "0.7.9"
+  },
   "url": "https://github.com/spacemandev-git/fvtt-swade-toolkit",
   "manifest": "https://github.com/spacemandev-git/fvtt-swade-toolkit/releases/download/latest/module.json",
   "download": "https://github.com/spacemandev-git/fvtt-swade-toolkit/releases/download/latest/module.zip",
@@ -30,14 +33,16 @@
     "styles/swade-toolkit.css",
     "styles/chat/swade-toolkit-chat.css"
   ],
-  "languages": [{
-    "lang": "en",
-    "name": "English",
-    "path": "lang/en.json"
-  },
-  {
-    "lang": "es",
-    "name": "Spanish",
-    "path": "lang/es.json"
-  }]
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json"
+    }
+  ]
 }
